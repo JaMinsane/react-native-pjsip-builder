@@ -20,8 +20,10 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
 
 # ENV TARGET_ARCHS "armeabi armeabi-v7a x86 mips arm64-v8a x86_64 mips64"
 ENV TARGET_ARCHS "armeabi-v7a x86 arm64-v8a x86_64" 
-ENV ANDROID_NDK_DOWNLOAD_URL "https://dl.google.com/android/repository/android-ndk-r23b-linux.zip"
-ENV ANDROID_SDK_DOWNLOAD_URL "https://dl.google.com/android/repository/platform-tools_r31.0.3-linux.zip"
+ENV ANDROID_NDK_DOWNLOAD_URL "https://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip"
+ENV ANDROID_SDK_DOWNLOAD_URL "https://dl.google.com/android/repository/tools_r25.2.5-linux.zip"
+#ENV ANDROID_NDK_DOWNLOAD_URL "https://dl.google.com/android/repository/android-ndk-r23b-linux.zip"
+#ENV ANDROID_SDK_DOWNLOAD_URL "https://dl.google.com/android/repository/platform-tools_r31.0.3-linux.zip"
 ENV ANDROID_SETUP_APIS "23 25"
 ENV ANDROID_BUILD_TOOLS_VERSION 25
 ENV ANDROID_TARGET_API 23
