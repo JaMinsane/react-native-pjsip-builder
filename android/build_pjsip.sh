@@ -31,7 +31,6 @@ export ANDROID_NDK_ROOT=/sources/android_ndk
     --with-opus="/output/opus/${TARGET_ARCH}"
 
 make dep
-make clean
 make
 
 cd /tmp/pjsip/pjsip-apps/src/swig
